@@ -58,7 +58,7 @@ public class ex5 {
                 ElementTypes[] possible_types = ElementTypes.values();
                 int random_type_num = rand.nextInt(0, possible_types.length);
                 ElementTypes randType = possible_types[random_type_num];
-                
+
                 JComponent newComponent = getComponent(randType, String.valueOf(addedElements.size()));
                 dynamic_panel.add(newComponent);
                 dynamic_panel.revalidate();
